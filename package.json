@@ -1,0 +1,25 @@
+{
+  "name": "nosql-lab",
+  "version": "1.0.0",
+  "description": "NoSQL Lab",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "docker-compose build",
+    "up": "docker-compose up -d",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sitdh/nosql-lab.git"
+  },
+  "keywords": [
+    "NoSQL",
+    "MongoDB"
+  ],
+  "author": "Sitdhibong Laokok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sitdh/nosql-lab/issues"
+  },
+  "homepage": "https://github.com/sitdh/nosql-lab#readme"
+}
